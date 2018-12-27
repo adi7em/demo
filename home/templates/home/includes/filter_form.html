@@ -1,0 +1,44 @@
+<style>
+    div.a {
+        display: inline-block; /* the default for span */
+    }
+</style>
+
+<form method="GET" action="">
+    <div>
+        <div class="a">
+            <small>Sex</small><br>
+            <select name="sex">
+                <option value="">all</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+        </div>
+        <div class="a">
+            <small>Race</small><br>
+            <select name="race">
+                <option value="">all</option>
+                <option value="White">White</option>
+                <option value="Asian-Pac-Islander">Asian-Pac-Islander</option>
+                <option value="Amer-Indian-Eskimo">Amer-Indian-Eskimo</option>
+                <option value="Other">Other</option>
+                <option value="Black">Black</option>
+            </select>
+        </div>
+        <div class="a">
+            <small>Relationship</small><br>
+            <select name="relationship">
+                <option value="">all</option>
+                <option value="Wife">Wife</option>
+                <option value="Own-child">Own-child</option>
+                <option value="Husband">Husband</option>
+                <option value="Not-in-family">Not-in-family</option>
+                <option value="Other-relative">Other-relative</option>
+                <option value="Unmarried">Unmarried</option>
+            </select>
+        </div>
+        <div class="a">
+            <input type="submit" value="filter"/>
+        </div>
+    </div>
+</form>
