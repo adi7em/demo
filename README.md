@@ -1,6 +1,6 @@
 Installation Instructions:
 
-1) Clone the project
+1) Clone the project go to project root directory(demo-master by default)
 
 1) Setup a PostgreSQL database and do following changes in "demo/settings.py" in 'DATABASES' variable-
   1. Replace the 'demo_data' with your database's name
@@ -15,7 +15,10 @@ Installation Instructions:
   4. type and enter 'save_data()', wait this function to finish cause it may take some time.
   5. Exit the python shell
 
-4) Go to directory 'demo' (where 'manage.py' file exists)
 5) Start the server 'python3 manage.py runserver'
 6) Visit 'http://localhost:8000/' to see the results
+
+7) To see the data row-wise click on 'Display Row-wise'. You can traverse through data pagewise with given links below the table.
+8) To filter the data you can choose the fields and click on 'filter'
+9) Click on home icon to go back.
 
